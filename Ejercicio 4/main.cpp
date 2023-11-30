@@ -6,7 +6,8 @@ int main(){
 
     double suma = valores.sum();
     double media = suma / valores.size();
-
+    std::cout << "Suma: " << suma << std::endl;
+    std::cout << "Media: " << media << std::endl;
     valores += 5.0;
 
     std::cout << "Valores + 5.0: ";
