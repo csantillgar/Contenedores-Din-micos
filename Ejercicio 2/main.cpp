@@ -3,7 +3,12 @@
 #include<list>
 #include<stack>
 using namespace std;
-int main{
+int main(){
+    list<float> lista = {1.1,2.2,3.3,4.4,5.5};
+    stack<float,list<float>> pila(lista);
+    pila.push(6.6);
+    pila.push(7.7);
+
 
     return 0;
 };
