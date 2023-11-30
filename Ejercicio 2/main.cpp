@@ -8,6 +8,10 @@ int main(){
     stack<float,list<float>> pila(lista);
     pila.push(6.6);
     pila.push(7.7);
+    while(!pila.empty()){
+        cout<<pila.top()<<endl;
+        pila.pop();
+    }
 
 
     return 0;
